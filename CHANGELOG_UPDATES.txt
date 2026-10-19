@@ -1,0 +1,22 @@
+TLT Disaster Management System - UI updates
+
+Applied changes:
+- Admin dashboard summary action buttons removed. inalis ko na function
+- Admin top navigation links now have a purple active/hover highlight.
+- New Broadcast opens a modal popup on the Alerts page and submits to the existing broadcast route.
+- Removed the View Incident History shortcut from Reports (History remains in navigation).
+- Replaced manual weather values with live Open-Meteo data for the Nueva Ecija area, refreshing every 15 minutes.
+- Updated sector labels to Nueva Ecija Sector.
+- Changed the admin theme to purple/dark styling.
+- Changed the user role action icon to an up arrow.
+- Moved View Active System History to the top of the user dashboard.
+- View Evacuation Plan opens a modal with broadcast instructions and safety reminders.
+
+Run:
+1. Start MongoDB locally.
+2. Open this folder in VS Code.
+3. Run: npm install
+4. Run: npm start
+5. Open: http://localhost:3000
+
+The live weather widget requires an internet connection. The app uses the existing local MongoDB URL in .env.

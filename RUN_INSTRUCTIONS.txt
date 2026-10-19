@@ -1,0 +1,18 @@
+TLT DISASTER MANAGEMENT SYSTEM — UPDATED
+
+Design: Blue & White, modern cards, light mode.
+
+Requirements:
+- Node.js (LTS)
+- MongoDB running locally, unless config/db.js is set to a remote connection
+
+Run:
+1. Extract the ZIP.
+2. Open the extracted folder in VS Code.
+3. Open a terminal in this folder.
+4. Run: npm install
+5. Run: npm start
+6. Open: http://localhost:3000
+
+Weather on the User dashboard uses Open-Meteo and refreshes every 15 minutes; internet is required.
+Keep the terminal running while using the site. Do not share your .env or database credentials.
